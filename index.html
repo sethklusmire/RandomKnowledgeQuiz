@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gimme dat Random</title>
+  <style>
+
+    body { font-size: 175%; 
+        margin: 40px;}
+    form > div { margin-bottom: 40px; }
+    .hidden { display: none;}
+  </style>
+<body>
+    <article>
+        <header id= "countDown"></header>
+    </article>
+  <h1>Random Knowledge Quiz!!!</h1>
+  
+  <button id= "start">Start</button>
+  <div id= "initials" class= "hidden">
+      <input type="text" id= "initials_input">
+      <button id= "submit-initials">Submit</button>
+  </div>
+  <ol id= "highscore_list">
+
+  </ol>
+  <button id="reset" class="hidden">Start Over</button>
+  <button id="clear" class="hidden">Clear</button>
+
+
+  <form id="quiz">
+    <div id="quiz_question"></div> 
+  </form>
+
+  <script src="script.js" type="application/javascript"></script>
+</body>
+
+</html>
